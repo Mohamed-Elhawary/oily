@@ -1,0 +1,89 @@
+/*Start Re-edit FastHelpers Classes*/
+@media (max-width: 767px) {
+    .middle-content {width: 90%}
+}
+/*End Re-edit FastHelpers Classes*/
+
+/*Start Re-edit Components*/
+/*Start Info*/
+@media (max-width: 575px) {
+    .info .options {margin-bottom: 5px; text-align: center!important}
+    .info .intro {text-align: center}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .info .options {margin-top: 20px!important}
+}
+/*End Info*/
+
+/*Start Nav*/
+@media(max-width: 991px) {
+    nav form {right: initial}
+} 
+/*End Nav*/
+
+/*Start Shop Item &  Orders Box*/
+@media(max-width: 575px) {
+    .shop-item  {right: 50%}
+    .orders-box {top: 180px}
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .shop-item  {right: 50%;}
+    .orders-box {top: 140px}
+}
+/*End Shop Item &  Orders Box*/
+
+/*Start Footer*/
+@media(max-width: 767px) {
+    footer, footer .rights, footer .credits {text-align: center}
+}
+/*End Footer*/
+/*End Re-edit Components*/
+
+/*Start Pages*/
+/*Start Home Page*/
+/*Start Header*/
+@media(max-width: 1199px) {
+    header.header .slide .offer-dets {top: 240px!important}
+    header.header .slide .offer-img img {top: 120px!important}
+    
+}
+
+@media(max-width: 1199px) {
+    header.header .slide h3 {font-size: 20px}
+}
+/*End Header*/
+
+/*Start News*/
+@media(max-width: 767px) {
+    .news .box-news {margin-right: -10px}
+}
+/*End News*/
+
+/*Start Members & Brands*/
+@media(min-width: 400px) and (max-width: 489px) {
+    .brands .card img {left: 39%}
+}
+
+@media(min-width: 490px) and (max-width: 767px) {
+    .brands .card img {left: 41%}
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .brands .card img {left: 43%}
+}
+/*End Members & Brands*/
+/*End Home Page*/
+
+/*Start Products Pages*/
+@media(max-width: 991px) {
+    .products .card img {left: 35%!important}
+}
+/*End Products Pages*/
+
+/*Start Contact Page*/
+@media(max-width: 767px) {
+    .contact .contact-form input[type='submit'] {width: 100%}
+}
+/*End Contact Page*/

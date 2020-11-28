@@ -1,0 +1,61 @@
+/*Start Header*/
+header.header .bxslider {height: 60vh!important}
+
+header.header .bx-wrapper .bx-viewport {box-shadow: none; border: 0; height: 0%!important}
+
+header.header .slide.one {background: url("../../images/header_slider/car1.jpg") no-repeat}
+
+header.header .slide.two {background: url("../../images/header_slider/car2.jpg") no-repeat; background-position: 70%!important}
+
+header.header .slide.three {background: url("../../images/header_slider/car3.jpg") no-repeat}
+
+header.header .slide {background-size: cover; height: 100%}
+
+header.header .slide .offer-dets {top: 100%}
+
+header.header .slide .offer-dets .tank-options {top: 80px}
+
+header.header .slide .offer-img img {width: 70%; height: 70%; top: 80px; right: 35px} 
+/*End Header*/
+
+/*Start News*/
+.news .box-news {margin-left: -15px}
+
+.news .news-bar {margin-left: -32px}
+/*End News*/
+
+/*Start Trends */
+.trends h5 {font-size: 14px}
+/*End Trends*/
+
+/*Start Choose us*/
+.choose-us .store .store-item .store-icon {line-height: 70px}
+
+.choose-us .store .store-item .store-icon:after {
+  top: 1px;
+  right: 100%;
+  content: "";
+  position: absolute;
+  border-left: 15px solid #DC3545;
+  border-top: 15px solid transparent;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg)
+}
+/*End Choose us*/
+
+/*Start Discount*/
+.discount {background: url("../../images/car_discount.jpg") no-repeat}
+
+.discount h2 {font-style: italic; font-family: cursive}
+
+.discount button:hover,
+.discount button:hover i {color: #DC3545}
+
+.discount .overlay {background: rgba(0,0,0,.2)}
+/*End Discount*/
+
+/*Start Members & Brands*/
+.brands .card img,
+.members .card img {left: 35%}
+/*End Members & Brands*/

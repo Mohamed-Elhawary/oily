@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--favicon-->
+        <link rel="icon" href="favicon.png" type="image/png">
+        <!--bootstrap framework-->
+        <link rel="stylesheet" href="css/frameworks/bootstrap.min.css">
+        <!--fasthelpers framework-->
+        <link rel="stylesheet" href="css/frameworks/fasthelpers.css">
+        <!--hover.css library-->
+        <link rel="stylesheet" href="css/libraries/hover.min.css">
+        <!--fontawosome library-->
+        <link rel="stylesheet" href="css/libraries/all.min.css">
+        <!--components-->
+        <link rel="stylesheet" href="css/components/components.css">
+        <!--media query-->
+        <link rel="stylesheet" href="css/media_query/media_query.css">
+        <!--google fonts "cairo"-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <title>Oily | Gasoline - Mobil</title>
+    </head>
+    <body>
+        <!--Start Info-->
+        <div class="info py-2 border-bottom"></div>
+        <!--End Info-->
+
+        <!--Start Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light container"></nav>
+        <!--End Nav-->
+
+        <!--Start Shopping Item-->
+        <div class="container relative">
+            <div class="shop-item">
+                <span class="orders dark-grey">0</span>
+                <i class="fas fa-shopping-cart cursor text-danger lead shop relative"></i>
+            </div>
+        </div>
+        <!--End Shopping Item-->
+
+        <!--Start Orders Box-->
+        <div class="orders-box bg-light z-index rounded shadow-lg">
+            <ul class="orders-list list-unstyled">
+
+            </ul>
+        </div>
+        <!--End Orders Box--> 
+         
+        <!--Start Header-->
+        <div class="header high-height relative" style="background: url('images/brands/mobil_banner.png') no-repeat;">
+            <div class="overlay"></div>
+            <div class="middle-content z-index">
+                <h1 class="upper white-color text-center">Mobil 1 Gasoline Products</h1>
+                <p class="text-center white-color radius padding">Powerfull Oil Tanks with<span class="text-danger upper ml-2">Oily</span></p>
+            </div>
+        </div>
+        <!--End Header-->
+
+        <!--Start Products-->
+        <div class="products section-padd" id="mobil">
+            <h1 class="upper text-center text-danger mb-5">Products</h1>
+            <div class="container">
+                <div class="products-boxes mt-5" data-brand="Mobil" data-oil="Gasoline">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Products-->
+
+        <!--Start Footer-->
+        <footer class="footer bg-dark"></footer>
+        <!--End Footer-->
+
+        <!-- jQuery Library-->
+        <script src="js/libraries/jquery.min.js"></script>
+        <!--Bootstrap Framework -->
+        <script src="js/frameworks/bootstrap.min.js"></script>
+        <!--Nice Scroll Plugin-->
+        <script src="js/plugins/nicescroll.min.js"></script>
+        <script>
+            //Trigger Nice Scroll
+            $('body').niceScroll({
+                cursorcolor: "#e63946", //default theme color
+                cursorwidth: '14px',        
+                zindex: 999,
+                horizrailenabled:false
+            });
+        </script>
+        <!--Js Files-->
+        <!--products-->
+        <script src="js/pages/products.js"></script>
+        <!--components-->
+        <script src="js/components/components.js"></script>
+    </body>
+</html>

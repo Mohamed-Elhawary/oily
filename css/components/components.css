@@ -1,0 +1,54 @@
+/*Start Body*/
+body {font-family: 'Cairo', sans-serif; overflow-x: hidden}
+/*End Body*/
+
+/*Start Nav*/
+nav form {right: 5%}
+
+nav form .form-control {box-shadow: none!important; display: none}
+
+nav form .fa-search {top: 5px}
+/*End Nav*/
+
+/*Start Shop Item &  Orders Box*/
+.shop-item  {position: absolute; top: -32px; right: 2%}
+
+.shop-item .orders {position: absolute; bottom: 20px; left: 8px}
+
+.orders-box {
+    position: fixed;
+    top: 115px;
+    right: -600px;
+    z-index: 999999;
+    max-height: 600px;
+    overflow-y: auto
+}
+
+.orders-box .orders-list .order {width: 95%; margin-left: auto; margin-right: auto}
+
+.orders-box .orders-list .order i.fa-times-circle {position: absolute; top: 5px; right: 5px}
+
+.orders-box .orders-list .order .order-img .in-cart {position: absolute; left: -5px; top: -2px}
+/* End Shop Item &  Orders Box*/
+
+/*Start Header*/
+div.header {background-size: cover!important; background-position: 40%!important}
+/*End Header*/
+
+/*Start Footer*/
+footer .links a:hover,
+footer .social i:hover {color: #DC3545; text-decoration: none}
+/*End Footer*/
+
+/*Start Card*/
+.card h5,
+.card h5 {margin-top: 60px}
+
+.card img,
+.card img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -30px
+}
+/*End Card*/

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="favicon.png" type="image/png"> <!--favicon-->
+        <link rel="stylesheet" href="css/frameworks/bootstrap.min.css"> <!--bootstrap framework-->
+        <link rel="stylesheet" href="css/frameworks/fasthelpers.css"> <!--fasthelpers framework-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap"> <!--google fonts "cairo"-->
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <title>Oily | Documentation</title>
+    </head>
+    <body style="font-family: Cairo;">
+        <div class="docs section-padd">
+            <div class="container">
+                <h1 class="text-danger text-center bg-light rounded shadow padding">Oily <span class="dark-grey">Docs</span></h1>
+                <div class="links py-4">
+                    <div class="row">
+                        <div class="col-6 text-right">
+                            <a href="https://oily.netlify.app/" class="p-2 radius shadow text-danger" style="text-decoration: none;">Preview</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="https://github.com/Mohamed-Elhawary/oily" class="p-2 radius shadow text-danger" style="text-decoration: none;">Project in Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mockup text-center">
+                    <img src="mockup.png" alt="mockup" class="img-fluid shadow radius border">
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">1- Install Smart Editor</h4>
+                    <p class="par">Code Editor is the way and the gate that will let you have full control on your website, so you may need to install a smart editor that can be helpful for you when you treat with the website pages, one of the most powerful editors in the market is <a href="https://code.visualstudio.com/" class="underline">Visual Studio</a> you can install it now it is free.</p>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">2- Open the Project Folder Workspace</h4>
+                    <p class="par">After installing the Visual Studio editor, open it and in the top bar click on <span class="text-danger">file</span> menu then select <span class="text-danger">Open Folder</span>, then select the project folder to open all its structure as a workspace, dont't forget to launch the <span class="text-danger">Auto Save</span> option in the same <span class="text-danger">file</span> menu as shown in the image below to save your changes to the project automatically.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100294237-e93eca80-2f8e-11eb-94c2-9f6a4fdb801d.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100294520-b2b57f80-2f8f-11eb-9368-b13965c1759b.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">3- Open the JSON File for the Products</h4>
+                    <p class="par">Open the file that named products.json to can delete, add or edit an product as you want</p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100294789-7c2c3480-2f90-11eb-8253-392cf8315247.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">2- Be Familier with a Product Component</h4>
+                    <p class="par">Each product has a component of data that belongs to it only, tha heading names of the data in each component are similar, the difference is in the value.</p>
+                    <p class="par">
+                        <h5 class="text-danger">Let's take a look what each product contains:-</h5>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">id</span>: it is a unique number for the product.
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">title</span>: the name of the product.
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">brand</span>: the product brand (mobil, total, shell,..)
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">oilType</span>: the oil type of the product (diesel or gasoline)
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">description</span>: the description of the product name in its full name, prefers to write it inside brackets like the image below.
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">descriptionID</span>: it is ike the description of the product exactly but it is written in a different shape, between each two words add (_) sign and all letters in samll case, this kind of data is important and must be added like the way i explained because javascript part depends on it to work your website without any problems.
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">priceAfter</span>: it is the price of the product after discount, write it as a number without any kind of currency like L.E or USD, just the price number only like the image below. 
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">priceBefore</span>: it is the price of the product before discount, write it as a number without any kind of currency like L.E or USD, just the price number only like the image below. 
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">stars</span>: you have here two options of stars, products has 3 stars so write the value as (3), or a product has 2 stars so write the value as (2).
+                        <br>
+                        <br>
+                        - <span class="bg-light p-2 shadow rounded bold border d-inline-block">images</span>: this data is very important and sensitive, so be aware when you edit or add it, this is the (url) of the product image, each product has its unique (url), i will explain later in the next steps how to make your new product url image.
+                    </p>
+                    <p class="par">Note that each product is grouped together with its siblings products which have the same brand name, you may notice for example that <span class="text-danger">mobil</span> brand has its products that are grouped together inside the same square brackets in one collection, this note is very important to take care of it when you add a new product while you MUST know before anythig what is the brand name of your product.</p>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100297391-43438e00-2f97-11eb-854a-9ffc0bed1446.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100297416-4f2f5000-2f97-11eb-8ab2-18401fb27671.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100297447-62dab680-2f97-11eb-9a6f-1fa0831b41db.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">4- How to add a new Product in an already existed Oil Brand</h4>
+                    <p class="par">First you must know the product brand name which will be one of those (Mobil, Total or Shell), so go to the this brand collection in the json file and make a new product component inside this brand collection and this component will have the same stracture as the other products inside this brand collection.</p>
+                    <p class="par">Second add your new product data details as i showed before, it must have a unique (id) number, so give it a unique (id), then add the other values of the data like the product name, description, price, and so on.</p>
+                    <p class="par">Third when you reach to the (image) data, you must be aware here, you need to get a suitable image for the product that refers to it, prefers to be in size 228px*228px, then save this image in the <span class="text-danger">tanks</span> folder inside the <span class="text-danger">images</span> folder and give it a name like <span class="text-danger">tank12</span> but the number of the this tank must be unique also, while if there is another tank that was named (tank12) so you may need to name your product image with another tank name for example (tank13) and so on.</p>
+                    <p class="par">Fourth after you named the image, go to the json file again and add the url of this image as a value for the <span class="text-danger">image</span> data in your new product component, the url will be in this shape <span class="text-danger">images/tanks/ImageName.imageExtension</span> for example (images/tanks/tank13.png)</p>
+                    <p class="par">Now your product is ready, you don't need any more steps to do, you just now add a new product to a specific existed oil brand with a few steps, and the product will be dynamically added to the website after the auto save is runned.</p>
+                    <p class="par">Hint1: Note that each value of the data must be written inside double quotes <span class="text-danger">""</span> in the json file.</p>
+                    <p class="par">Hint2: to show a live preview of your website to see the effects of your changes once you made it, you can go to the <span class="text-danger">index.html</span> file in the website workspace and click a right click on it then choose <span class="text-danger">Open with live server</span> option in the context menu that will be shown to you, then the website will be opened in your default browser, while you will have a full control to transport between its pages smoothly and see the changes.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100300713-43e02280-2f9f-11eb-9f4e-bfa02e22e174.png" alt="img" class="img-fluid shadow rounded" style="height: 350px; width: 250px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 400px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100300656-2ad77180-2f9f-11eb-9316-0f7001729126.png" alt="img" class="img-fluid shadow rounded" style="height: 350px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h4 class="text-danger">5- How to add a new Product in a new Oil Brand</h4>
+                    <p class="par">Adding a new product to a new Oil Brand is slightly different in some steps than before, because it requires some extra steps before adding your product like before, this extra steps is for creating your new brand, they are very easy as i will explain below.</p>
+                    <p class="par">First: choose your new brand name for example <span class="text-danger">Sonic</span> then go to the json file, and after any brand collection ending, you can create your new collection for the new brand, by writting the collection name inside double quotes in small letters case then write (:) then open your collection square brackets to add its products components inside it, exactly the same as other collections.</p>
+                    <p class="par">Second: Add a new product as a test product inside this collection to check if it works well or not, you may need to follow step (4) to know how to add a new product.</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100304474-8148ae00-2fa7-11eb-843b-cc70d13feda3.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Third: the last thing you MUST do to launch this new collection is to tell the javascript code that there is a new collection has been added to the json file now to can see it and treat with it like other collections.</p>
+                    <p class="par">All you need is to go to the <span class="text-danger">products.js</span> file and go to the part of code that shown in the image below.</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100518928-588a0980-319d-11eb-9051-8b6ee18249e9.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Add these lines of codes like the image below, in line 82 and from line 98 to 101</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519630-dbad5e80-31a1-11eb-828d-c436a8023b98.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Finally: you may need to create a (2) new pages for your brand one for gasoline oil and the other for diesel oil, it is very easy, create a new file and name it for example <span class="text-danger">diesel_sonic.html</span> this file must be beside the other html files for your website.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100305709-4bf18f80-2faa-11eb-8dc6-52c9e2618e65.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100305756-6f1c3f00-2faa-11eb-8582-501770bd3a3f.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Then go to any brand <span class="text-danger">diesel</span> html file in the project and copy all the code inside it then paste it inside your new file that you just creat it.</p>
+                    <p class="par">After pasting the code you will need to change some small things, in the <span class="text-danger">div</span> that has class called <span class="text-danger">products</span> change its <span class="text-danger">id</span> value to <span class="text-danger">sonic</span> and change the <span class="text-danger">data-brand</span> value in the div that called <span class="text-danger">products-boxes</span> to <span class="text-danger">Sonic</span> like the image below, note that the first letter in the <span class="text-danger">data-brand</span> value is capital [<span class="text-danger">Sonic</span> not <span class="text-danger">sonic</span>].</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100306167-6d06b000-2fab-11eb-92e5-78b31aa64f6d.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100306250-9de6e500-2fab-11eb-851b-d313d6dd48c8.png" alt="img" class="img-fluid shadow rounded" style="height: 350px;">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">You may need to change the title of the page and the header also to your new brand name like the images below.</p>
+                    <div class="row mb-5">
+                        <div class="col-md-6">
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519722-7c038300-31a2-11eb-8336-4ec015078ffd.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="img text-center" style="max-width: 500px; max-height: 400px; margin: auto;">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519740-86258180-31a2-11eb-85d2-a809cacf8b7c.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519790-bd942e00-31a2-11eb-864c-686fe0491973.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519817-e1577400-31a2-11eb-9633-89e5073cec74.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Also you can add suitable header banner for your brand, to organize the page well, choose a suitable image, prefers to be in size 1920px*400px, then add this image in the <span class="text-danger">brands</span> folder inside the <span class="text-danger">images</span> folder, and name it like this <span class="text-danger">sonic_banner.imageExtension</span></p>
+                    <p class="par">Then go to the header again in the code and add the new background url for the header like the image below.</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519833-fd5b1580-31a2-11eb-9edb-ecae9a6a944b.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">*** And likewise with the <span class="text-danger">gas_sonic.html</span> file, you will do the same steps in it as before, but the code that you will copy and paste will be from any brand <span class="text-danger">gasoline</span> html file at this time.</p>
+                    <p class="par">Also you will need to provide a way for the user to can access easily your new brand pages, so to do that, go to the <span class="text-danger">index.html</span> file then go to the <span class=text-danger>div</span> that has class called <span class="text-danger">brands</span> and add your brand component inside it with a direct links that access directly to the brand pages like the image below.</p>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <h5 class="text-center">Before adding the brand component</h5>
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519972-f254b500-31a3-11eb-8946-b6b2714b5bfc.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h5 class="text-center">After adding the brand component</h5>
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100519918-a0ac2a80-31a3-11eb-8a1a-c8115171515a.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">You may note that we added a suitable image for the brand in the code, so you may need to choose a suitable image, prefers to be in size 200px*200px and add this image in the <span class="text-danger">brands</span> folder inside the <span class="text-danger">images</span> folder and name this image with the brand name like this <span class="text-danger">sonic.imageExtension</span></p>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100309839-76484a80-2fb4-11eb-90a0-aae939ab38de.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="par">Also you may need to customize the links in the navbar also, for the user who uses the navbar links to access the website pages, so go to the <span class="text-danger">navbar.html</span> file and add a direct links to your new brand pages like the images below.</p>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <h5 class="text-center">Before adding the brand pages links to the navbar</h5>
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100520049-7f980980-31a4-11eb-9750-d6c90e6a0206.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h5 class="text-center">After adding the brand pages links to the navbar</h5>
+                            <div class="img text-center">
+                                <img src="https://user-images.githubusercontent.com/69651552/100520093-b706b600-31a4-11eb-86c5-d34bf0a58dc3.png" alt="img" class="img-fluid shadow rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step shadow radius border p-2 my-3">
+                    <h5 class="text-danger">6- Conclusion</h5>
+                    <p class="par">Now you have enough idea on how to control your products by adding a new product in an already existed brand or create your personal brand and add new products inside it, this is the adding method, if you need to edit or delete product or brand the issue now is more easier to you, i guess you now understand the concept and the mechanism of the products operations very well so you can do it easily while the adding method was the hardest part in all of that.</p>
+                    <p class="par">If you have any questions feel free to contact me at my Email: mohamed.k.elhawary@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-center p-2">
+            <div class="container">
+                <p class="white-color">All Copy Rights Reserved &copy;2020 <span class="text-danger upper">Oily</span></p>
+                <p class="white-color">Made by: <a class="text-danger" href="https://github.com/Mohamed-Elhawary">_HaWaRy_</a></p> 
+            </div>            
+        </footer>
+    </body>
+</html>
