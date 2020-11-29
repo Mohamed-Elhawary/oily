@@ -5,6 +5,14 @@ $(function() {
         $("nav.navbar form .fa-search").on("click", function() {
             $("nav.navbar form input").fadeToggle(400);
         });
+
+        $("button.navbar-toggler").on("click", function() {
+            if($(".navbar-collapse.collapse").hasClass("show")) {
+                $(".shop-item").css("top", "-32px");
+            } else {
+                $(".shop-item").css("top", "-228px");
+            }
+        });
     });
     $("footer.footer").load('footer.html');
     /*End Load Info, Navbar and Footer (DOM HTML Code)*/
