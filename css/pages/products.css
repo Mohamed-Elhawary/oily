@@ -1,0 +1,6 @@
+div.header {
+    background-size: cover!important;
+    background-position: 40%!important
+}
+
+.products .card img {left: 40%}
