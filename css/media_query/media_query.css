@@ -24,12 +24,14 @@
 
 /*Start Shop Item &  Orders Box*/
 @media(max-width: 575px) {
-    .shop-item  {right: 50%; top: 144px; position: fixed}
+    .shop-item-container {position: initial}
+    .shop-item  {right: 50%; top: 144px}
     .orders-box {top: 180px}
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
-    .shop-item  {right: 50%; top: 110px; position: fixed}
+    .shop-item-container {position: initial}
+    .shop-item  {right: 50%; top: 105px}
     .orders-box {top: 140px}
 }
 /*End Shop Item &  Orders Box*/
