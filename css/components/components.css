@@ -18,7 +18,7 @@ nav form .fa-search {top: 5px}
 .orders-box {
     position: fixed;
     top: 115px;
-    right: -600px;
+    right: -200%;
     z-index: 999999;
     max-height: 600px;
     overflow-y: auto

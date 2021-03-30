@@ -1,8 +1,7 @@
 $(function() {
     /* Start Global Variables */
     let cartNumberSpan      = document.querySelector(".shop-item span.orders"),
-        productsID          = document.querySelector(".products").getAttribute("id"),
-        objectsArray = [];
+        productsID          = document.querySelector(".products").getAttribute("id");
     /* End Global Variables */
 
     //Fetch products data from the JSON file
@@ -109,10 +108,14 @@ $(function() {
                 inCart: 0
             }
             objectsArray.push(object);
-        }); 
+        });
+        /* let cartItems = localStorage.getItem("productsInCart");
+        if(cartItems && cartItems.length > 0) {
+            cartItems = JSON.parse(cartItems);
+        }   */
         
         //When clicking on the cart button 
-        for (let i =0; i < cartButtons.length; i++) {
+        for (let i = 0; i < cartButtons.length; i++) {
             cartButtons[i].addEventListener("click", () => {
                 cartNumber();
                 setItems(objectsArray[i]);
@@ -141,12 +144,18 @@ $(function() {
         cartItems = JSON.parse(cartItems);
         if(cartItems != null) {
             if(cartItems[product.name] == undefined) {
+                product.inCart = 1;
                 cartItems = {
                     ...cartItems,
                     [product.name]: product
-                } 
+                }
+            } else {
+                product.inCart = cartItems[product.name].inCart + 1;
+                cartItems = {
+                    ...cartItems,
+                    [product.name]: product
+                }
             }
-            cartItems[product.name].inCart += 1;
         } else {
             product.inCart = 1;
             cartItems = {

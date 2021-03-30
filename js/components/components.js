@@ -15,7 +15,8 @@ $(function() {
 let shopBasket     = document.querySelector(".shop-item .fa-shopping-cart"),
     ordersBox      = $(".orders-box"),
     ordersList     = document.querySelector(".orders-box .orders-list"),
-    cartNumberSpan = document.querySelector(".shop-item span.orders");
+    cartNumberSpan = document.querySelector(".shop-item span.orders"),
+    objectsArray = [];
 
 // When reloading the page for cart number
 function onLoadCartNumber() {
@@ -35,7 +36,7 @@ shopBasket.addEventListener("click", () => {
         }, 600)
     } else {
         ordersBox.css("position", "fixed").animate({
-            right: "-600px",
+            right: "-200%",
         }, 600)
     }
 });
@@ -47,7 +48,7 @@ function displayProductsInCart() {
     if(cartItems && parseInt(totalCost) != 0) {
         cartItems = JSON.parse(cartItems);
         ordersList.innerHTML = "";
-        Object.values(cartItems).map(item => {
+        Object.values(cartItems).slice(0).reverse().map(item => {
             ordersList.innerHTML += `
                 <div class="order my-2 p-2 border-bottom shadow rounded relative" id= "${item.name}">
                     <i class="fas fa-times-circle cursor lead cursor z-index"></i>
