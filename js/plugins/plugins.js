@@ -16,9 +16,9 @@ $(function() {
     //Trigger Slick Slider
     $(".news-carousel.slider").slick({
         cssEase: 'linear',
-        slidesToShow: 4,
+        slidesToShow: 2,
         slidesToScroll: 1,
-        speed: 8000,
+        speed: 10000,
         autoplay: true,
         arrows: false,
         autoplaySpeed: 0,
@@ -28,18 +28,14 @@ $(function() {
         pauseOnHover: false,
         centerMode: false,
         focusOnSelect: true,
-        responsive: [{
-            breakpoint: 1199,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        }, {
-        breakpoint: 768,
-            settings: {
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
+              }
             }
-        }]
+        ]
     });
 });
