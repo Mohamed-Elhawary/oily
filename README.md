@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1ef409ff-4e71-4eac-9eca-112f4bd52a34/deploy-status)](https://app.netlify.com/sites/oily/deploys)
 
-A responsive simple e-commerce website for selling different types of oil brands, up to +9 internal pages.
+Oily is an E-commerce website for selling different types of oil brands, up to +9 internal pages.
 
 ![Screenshot](mockup.png) 
  
