@@ -35,10 +35,6 @@ You can view the website from [here](https://oily.netlify.app/)
 * [BX Slider](https://bxslider.com/)
 * [Slick Slider](https://kenwheeler.github.io/slick/)
 
-## API
-
-* [JSON](https://www.json.org/json-en.html) 
-
 ## Features  
 
 * Responsive Template Bootstrap v4
