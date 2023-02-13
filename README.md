@@ -10,23 +10,23 @@ You can view the website from [here](https://oily.netlify.app/)
  
 ## Demo
  
-![5102013335875b5b77340d01368d89ab6fe4f6ce](https://user-images.githubusercontent.com/69651552/100522863-a3fbe200-31b4-11eb-89c8-c1ca61671adf.gif)
+![Demo](https://user-images.githubusercontent.com/69651552/100522863-a3fbe200-31b4-11eb-89c8-c1ca61671adf.gif)
 
-## Built With
+## Built with
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JS 
 
 ## Libraries  
 
 * [jQuery](https://jquery.com/)
-* [Hover.css](https://ianlunn.github.io/Hover/)
+* [Hover](https://ianlunn.github.io/Hover/)
 * [Font Awesome](https://fontawesome.com/)  
   
 ## Frameworks 
 
-* [Bootstrap 4](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [FastHelpers Framework [FHF]](https://github.com/Mohamed-Elhawary/fasthelpers-framework-fhf)
 
 ## Plugins 
@@ -73,8 +73,8 @@ You can view the website from [here](https://oily.netlify.app/)
 
 ## Documentation
 
-[Documentation Folder](Documentation)
-[Documentation Link](https://oily-docs.netlify.app/)
+- [Documentation Folder](Documentation)
+- [Documentation Link](https://oily-docs.netlify.app/)
 
 ## Author
 
@@ -83,7 +83,7 @@ You can view the website from [here](https://oily.netlify.app/)
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
